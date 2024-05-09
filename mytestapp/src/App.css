@@ -1,0 +1,87 @@
+.header {
+    background-color: black;
+    height: 50px;
+    align-items: center;
+    display: flex;
+}
+
+.header button {
+    color: black;
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5%;
+}
+
+.header label {
+    font-size: 20px;
+}
+
+.header input {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+.header .submit-button {
+    background-color: lightblue;
+}
+
+.modal-footer {
+    padding-top: 10px;
+}
+
+.article-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.article-card {
+    margin: 15px;
+    width: 300px;
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.article-modal {
+    border-radius: 20px;
+    border-color: lightgray;
+    background-color: lightgray;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.edit-main {
+    display: flex;
+    justify-content: center;
+}
+
+.article-detail {
+    background-color: lightgray;
+    width: 300px;
+    text-align: center;
+}
+
+.article-detail button {
+    color: black;
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5%;
+}
+
+button:hover {
+    filter: brightness(80%);
+}
+
+button {
+    color: black;
+    background-color: darkgray;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 5%;
+}
